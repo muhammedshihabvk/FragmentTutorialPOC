@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyCustomToolbar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorSecondary">#FF0101</item>
+    </style>
+
+    <style name="MyCustomPopUpMenuTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:background">#FBC02D</item>
+    </style>
+</resources>
