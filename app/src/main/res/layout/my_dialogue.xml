@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:padding="40dp"
+    android:layout_height="200dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you like this?" />
+
+    <Button
+        android:id="@+id/buttonYes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yes" />
+
+    <Button
+        android:id="@+id/buttonNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No" />
+</LinearLayout>
